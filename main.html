@@ -1,0 +1,53 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hungry Apple Farmer</title>
+<style>
+      button{
+	    margin-left:75px;
+		margin-right:0px;
+        width:15%;
+        height:30px;
+        background-color:blue;
+        border-radius:50px;
+		font-size:20px;
+      }
+	  
+	 button:hover {
+	  background-color: limegreen;
+	  }
+	 
+</style>
+</head>
+<body>
+<canvas id="canvas" class="canvas" width="1000" height="625"></canvas>
+	<div>
+<button id="e" class="arrow">Play Again!</button>
+<a href="htpe.html"><button>How to play?</button></a>
+<a href="levels.html"><button>Change Difficulty</button></a>
+	</div>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>	
+<!--<script src="Jquery2.1.1"></script>-->
+<script>
+ var canvas= document.getElementById("canvas");
+
+ var ctx = canvas.getContext("2d")
+ var width=canvas.width
+ var height=canvas.height
+
+var panda = function (){
+  this.x = 0
+  this.y = 0
+  this.image = getImage("")
+}
+
+
+
+
+  
+</script>
+</body>
+</html>
